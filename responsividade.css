@@ -1,0 +1,25 @@
+@media screen and (min-width: 1240px) and (max-width: 1520px) {
+
+
+    .bolo_maca {
+        left: 27vw;
+    }
+
+    .feijoada {
+        left: 52.3vw;
+    }
+
+}
+
+@media screen and (min-width: 1240px) and (max-width: ) {
+
+
+    .bolo_maca {
+        left: 25vw;
+    }
+
+    .feijoada {
+        left: 58vw;
+    }
+
+}

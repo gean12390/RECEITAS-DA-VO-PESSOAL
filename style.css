@@ -1,0 +1,103 @@
+body {
+    background-color: rgb(231, 204, 153);
+    padding: 0;
+    overflow-x: hidden;
+}
+
+main {
+    padding-left: 20px;
+    padding-top: 50px;
+}
+
+header {
+    background-color: rgb(240, 172, 46);
+    color: rgb(0, 161, 0);
+    height: 10vh;
+    position: relative;
+    top: -9px;
+    width: 1001%;
+    left: -10px;
+    font-family: titulo;
+    font-size: 62px;
+    padding-left: 50px;
+    height: 10vh;
+}
+
+input[type='text'] {
+    border-radius: 30px;
+    border: 1px solid;
+    font-size: 15px;
+    position: absolute;
+    left: 70vw;
+    top: 4vh;
+}
+
+a {
+    text-decoration: none;
+    font-family: a;
+    color: rgb(141, 132, 120);
+}
+
+p {
+    text-align: center;
+    font-size: 20px;
+}
+
+.bolo_banana, .bolo_maca , .posicao, .feijoada{
+    padding-top: 20px;
+    background-color: rgb(255, 242, 218);
+    width: 300px;
+    height: 400px;
+    justify-content: center;
+    display: flex;
+    border: 1px solid rgb(202, 202, 202);
+    position: absolute;
+}
+
+.bolo_maca {
+    left: 30vw;
+}
+
+.feijoada{
+    left: 58vw;
+}
+
+img {
+    width: 250px;
+    height: 300px;
+    border: 0.1px solid rgb(190, 190, 190);
+}
+
+.bloco:hover, .bolo_banana:hover, .bolo_maca:hover, .feijoada:hover{
+    transform: scale(1.1);
+}
+
+
+.posicao {
+    position: absolute;
+}
+
+.bolo{
+    position: absolute;
+}
+
+.pesquisa{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.retorno{
+    font-family: titulo;
+    color: rgb(0, 161, 0);
+    text-decoration: none;
+}
+
+
+@font-face {
+    font-family: 'titulo';
+    src: url(fonts/ORGANICAL\ PERSONAL\ USE.ttf);
+}
+
+@font-face {
+    font-family: 'a';
+    src: url(fonts/Coffee\ Normal.ttf);
+}
